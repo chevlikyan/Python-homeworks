@@ -38,6 +38,7 @@ representing the indices of the two numbers incremented by one.
 
 def array(the_list: list, target: int) -> list:
 """using for loop check the sum of two numbers if its equal to target return the indexes of those two numbers"""
+    """using for loop check the sum of two numbers if its equal to target return the indexes of those two numbers"""
     for i in range(len(the_list)):
         for j in range(len(the_list)):
             sum = the_list[i] + the_list[j]
@@ -64,3 +65,4 @@ def array(the_list: list, target: int) -> list:
 
 
 print(array([2, 7, 11, 15], 9))
+print(array([1, 2, 4, 5], 9))
